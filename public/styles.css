@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
+
+nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #1289A7;
+    padding: 0px 30px;
+    overflow: hidden;
+}
+
+.logo span{
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: #1289A7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div{
+    width: 60%;
+    height: 85%;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 2em;
+    margin-bottom: 30px; /* Increased margin for more space */
+}
+
+
+
+table {
+    border-spacing: 0px;
+    padding-top: 15px;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 0px solid #ddd;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin: 0px 0;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    font-weight: 500; /* Medium bold */
+    opacity: 0.8; /* Adjust this to make the placeholder text more visible */
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.result {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.result h2 {
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
